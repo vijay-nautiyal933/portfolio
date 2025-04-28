@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Nautiyal | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/256bdcad12.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Loading animation -->
+    <div class="loader-wrapper">
+        <span class="loader"></span>
+    </div>
+
+    <!-- Back to top button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <header class="header">
+        <nav id="navbar">
+            <h3 class = "nav-title"><i class="fa-brands fa-vimeo text"></i> Vi<span class="text">j</span>ay</h3>
+            <input type="checkbox"id="click">
+           <label for="click"><i class="fa-solid fa-bars menu-hamburger"></i></label>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <!-- <li><a href="#resume">Resume</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h3 id="banner-greeting" class="banner-greeting">Hi, I am</h3>
+                <h3 id="banner-title" class="banner-title">Vijay Nautiyal</h3>
+                <p id="banner-description" class="banner-description">Full stack Web Developer</p>
+                <div class="banner-buttons">
+                    <a href="/portfolio/cv/vijay.pdf" download>
+                        <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                    </a>
+                    <a href="#contact">
+                        <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
+                    </a>
+                    <div class="icons-container" id="banner-icons">
+                        <a href="https://www.instagram.com/v_i_j_u_noty?utm_source=qr&igsh=bHozczB6MjJ1bzl6"target="_blank" style="color:red"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/vijay.nautiyal.169?mibextid=NTRm0r7WZyOdZZsz"target="_blank" style="color:blue"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/vijay-nautiyal"><i class="fa-brands fa-linkedin"target="_blank" style="color:rgb(25, 25, 253)"></i></a>
+                        <a href="https://t.me/Vijaynautiyal"target="_blank" style="color:rgb(65, 65, 241)"><i class="fa-brands fa-telegram"></i></a>  
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github" id="github"></i></a>       
+                    </div>
+                </div>
+            </div>
+            
+            <div class="profile">
+                <img class="profile" src="vijay.png" alt="Vijay Nautiyal">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="animate__animated animate__fadeIn">
+            <h3 class="section-title">About Me</h3>
+            <div class="about">
+                <div class="about-container">
+                    <img src="vjphoto.png" alt="Vijay Nautiyal" style="width: 250px;">
+                    <p class="section-description">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+                </div>
+                <div class="about-info-conatiner">
+                    <div class="about-info">
+                        <h4 class="info-title">Name: <span class="info-description"> Vijay Nautiyal</span></h4>
+                    </div>
+                    <div class="about-info">
+                        <h4 class="info-title">Email: <span class="info-description"> viju03uki@gmail.com</span></h4>
+                    </div>
+                    <div class="about-info">
+                        <h4 class="info-title">Date of birth: <span class="info-description"> 1 January 2003</span></h4>
+                    </div>
+                    <div class="about-info">
+                        <h4 class="info-title">Job Role: <span class="info-description"> Web Developer</span></h4>
+                    </div>
+                    <div class="about-info">
+                        <h4 class="info-title">Experience: <span class="info-description"> Fresher</span></h4>
+                    </div>
+                    <div class="about-info">
+                        <h4 class="info-title">Address: <span class="info-description"> CBI Colony, Seemadwar Dehradun, Uttarakhand, India.</span></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill" class="animate__animated animate__fadeIn">
+            <h1 class="section-title">My Skills</h1>
+            <div class="skills-containers">
+                <div class="skill">
+                    <p>HTML</p><span>95%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p><span>90%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p><span>85%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>C Programming</p><span>80%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Basic Java</p><span>75%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>SQL</p><span>70%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Python</p><span>65%</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="animate__animated animate__fadeIn">
+            <h3 class="section-title">Projects</h3>
+            <p class="section-description">I have worked on a wide range of projects. Here are some of my projects.</p>
+            <div class="project-container">
+                <div class="project">
+                    <img src="voting_system.png" alt="Online Voting System">
+                    <h3 class="project-title">Online Voting System</h3>
+                    <p class="project-description">Online voting system is an online voting technique. In which anyone can give his/her vote online without going to the election booth on the day of elections. This will surely consume less time as whole the day is being consumed on the day of elections. There is a DATABASE which is maintained in which all the names of registered member with complete information are stored. The technologies used for the user interface include HTML, CSS, PHP.</p>
+                </div>
+                <div class="project">
+                    <img src="portfolio.png" alt="Portfolio Website">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">The portfolio website was created as a professional showcase to highlight my work as a web developer and designer. Its primary goal is to present my skills, completed projects, and personal achievements in a visually appealing and easily navigable format. The website is structured into several key sections: Home Page, About Me, Projects, Skills, and Contact. HTML and CSS languages have been used in it.</p>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project">
+                    <img src="gym_website.png" alt="GYM Website">
+                    <h3 class="project-title">GYM Website</h3>
+                    <p class="project-description">The "Gym Website" has been developed to override the problems prevailing in the practicing manual system. This software is supported to eliminate and in some cases reduce the hardships faced by this existing system. Moreover this system is designed for the particular need of the company to carry out operations in a smooth and effective manner. HTML and CSS languages have been used in it.</p>
+                </div>
+                <div class="project">
+                    <img src="ecommerce_website.png" alt="E-commerce Website">
+                    <h3 class="project-title">E-commerce Website</h3>
+                    <p class="project-description">The objective of a wholesale e-commerce website is to show the wholesale shops to more and more people can buy goods at discounts. There are many types of categories in this website like Mobile & Accessories, medical, clothes, hardware, Grocery & Gourment, Motorbike & Accessories, Gifts, etc. The technologies used for the user interface include HTML, CSS, JavaScript, and frameworks like Tailwind CSS.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="animate__animated animate__fadeIn">
+            <h3 class="section-title">A Summary of Resume</h3>
+            <div class="resume-container">
+                <h3 class="resume-column-title">My Education</h3>
+                <div class="resume-column">
+                    <hr>
+                    <div class="resume">
+                        <h2 class="resume-item-title">Post Graduation</h2>
+                        <h3 class="resume-item-institute">Graphic Era Hill University Dehradun / (2023 - 2025)</h3>
+                        <p class="resume-item-description">Master's in Computer Applications (MCA).</p>
+                    </div>
+                    <hr>
+                    <div class="resume">
+                        <h2 class="resume-item-title">Graduation</h2>
+                        <h3 class="resume-item-institute">Shri Guru Ram Rai University Dehradun / (2020 - 2023)</h3>
+                        <p class="resume-item-description">Bachelor of Science (PCM).</p>
+                    </div>
+                    <hr>
+                    <div class="resume">
+                        <h2 class="resume-item-title">Intermediate</h2>
+                        <h3 class="resume-item-institute">Shri Guru Ram Rai Public School Vasant Vihar Dehradun / (2020)</h3>
+                        <p class="resume-item-description">CBSE - Science (PCM).</p>
+                    </div>
+                    <hr>
+                    <div class="resume">
+                        <h2 class="resume-item-title">Matriculation</h2>
+                        <h3 class="resume-item-institute">Kendriya Vidyalaya Uttarkashi / (2018)</h3>
+                        <p class="resume-item-description">CBSE.</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="download-cv">
+                <a href="cv/vijay.pdf" target="_blank"><button class="btn-primary">View Resume</button></a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="animate__animated animate__fadeIn">
+        <div class="footer-column">
+           <h3 class="fotter-title">Connect With Me</h3>
+            <p class="section-description">
+                Below are the details to reach out to me! Let's work together.
+            </p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-itms">
+                <h3>Contact Number</h3>
+                <p><i class="fa-solid fa-phone"></i>
+                <a href="tel:+916395494865"> +91 6395494865</a></p>
+            </div>
+            <div class="contact-itms">
+                <h3>Email Id</h3>
+                <p><i class="fa-solid fa-envelope"></i>
+                <a href="mailto:viju03uki@gmail.com"> viju03uki@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="find-me">
+            <h3>Find me on</h3>
+            <div class="icons-container">
+                <a href="https://www.instagram.com/v_i_j_u_noty?utm_source=qr&igsh=bHozczB6MjJ1bzl6" target="_blank" aria-label="Instagram"><i class="fa-brands fa-square-instagram colo" id="instagram"></i></a>
+                <a href="https://www.facebook.com/vijay.nautiyal.169?mibextid=NTRm0r7WZyOdZZsz" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+                <a href="https://www.linkedin.com/in/vijay-nautiyal" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                <a href="https://t.me/Vijaynautiyal" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram" id="Telegram"></i></a>
+                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github" id="github"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> Vijay Nautiyal. All Rights Reserved.</p>
+        </div>
+    </footer>
+   
+</body>
+</html>
